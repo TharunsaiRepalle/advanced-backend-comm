@@ -1,0 +1,14 @@
+redis/Queues/express-server/node_modules
+redis/Queues/express-server/dist
+redis/Queues/express-server/package-lock.json
+
+redis/Queues/worker/node_modules
+redis/Queues/worker/dist
+redis/Queues/worker/package-lock.json
+
+websockets/backend/dist
+websockets/backend/node_modules
+websockets/backend/package-lock.json
+
+websockets/client/node_modules
+websockets/client/package-lock.json
