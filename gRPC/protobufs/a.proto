@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+//Define a  message type representing a Person
+message Person {
+    string name = 1;
+    int32 age = 2;
+}
+
+service PersonService {
+    //Add a person to contact book
+    rpc Addperson (Person) returns (Person);
+
+    //Get a person from contact book
+    rpc GetPersonByName (GetPersonByNameRequest) returns (Person);
+}
+
+message GetPersonByNameRequest {
+    string name = 1;
+}
