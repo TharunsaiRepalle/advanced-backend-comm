@@ -12,3 +12,7 @@ websockets/backend/package-lock.json
 
 websockets/client/node_modules
 websockets/client/package-lock.json
+
+gRPC/json-rpc/node_modules
+gRPC/json-rpc/dist
+gRPC/json-rpc/package-lock.json
