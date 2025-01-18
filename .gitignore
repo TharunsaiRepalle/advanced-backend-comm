@@ -19,3 +19,7 @@ gRPC/json-rpc/package-lock.json
 
 gRPC/protobufs/node_modules
 gRPC/protobufs/package-lock.json
+
+gRPC/grpc-implementation/node_modules
+gRPC/grpc-implementation/dist
+gRPC/grpc-implementation/package-lock.json
